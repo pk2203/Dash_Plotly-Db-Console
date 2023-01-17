@@ -1,0 +1,88 @@
+.banner_desc {
+     height: 75px;
+     margin: 0px -10px 10px;
+     background-color: rgb(205, 21, 21);
+     border-radius: 2px;
+}
+
+.banner_desc h2{
+     color: white;
+     padding-top: 2px;
+     margin-left: 2%;
+     display: inline-block;
+}
+
+.banner_desc h5{
+     color: white;
+     padding-top: 2px;
+     margin-left: 63%;
+     margin-top: 2%;
+     display: inline-block;
+}
+
+.audit_control_desc{
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+}
+
+.audit_control_desc>*{
+     padding:10px;
+     margin:10px;
+     flex: 1 100%;
+}
+
+.search_new{
+     overflow: auto;
+     padding: 10px;
+     margin:10px;
+}
+
+.search_new button{
+     position: center;
+     padding: 12px;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+}
+
+.search_new button:hover{
+     background-color: #002ead;
+     transition: 0.7s;
+}
+
+.search_new button:active{
+     background-color: #002ead;
+}
+
+/*
+
+.left_container_desc{
+     resize: inherit;
+     overflow: auto;
+     position: relative;
+     width: 70%;
+}
+
+.search_new{
+     margin: 2px;
+     padding: 0 20px;
+     background: rgb(255, 255, 255);
+     text-align: left;
+}
+
+
+
+.controls_console_desc {
+     width: 100%;
+     padding: 0 20px;
+     background: rgba(224, 208, 208, 0.22);
+}
+
+.audit_table_desc{
+     float: right;
+     background: bisque;
+}
+
+
+*/
